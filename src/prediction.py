@@ -3,12 +3,12 @@ import pandas as pd
 # ==============================
 # Load Main Dataset
 # ==============================
-df = pd.read_csv(r"data_csv/Eliteserien_Dataset.csv")
+df = pd.read_csv(r"Eliteserien_Winner_Prediction/data_csv/Eliteserien_Dataset.csv")
 
 # ==============================
 # Load Historical Champions
 # ==============================
-champions_df = pd.read_csv(r"data_csv/Last_Champions.csv")
+champions_df = pd.read_csv(r"Eliteserien_Winner_Prediction/data_csv/Last_Champions.csv")
 
 # Count championships for each team
 champion_counts = champions_df["Team"].value_counts().to_dict()
