@@ -18,8 +18,8 @@ This project predicts the winner of the Norwegian football league (Eliteserien) 
 ## Installation & Usage  
 1. Clone the repository:  
 ```bash
-git clone https://github.com/timosvar/Eliteserien_Winner_Prediction.git
-cd Eliteserien_Winner_Prediction
+git clone https://github.com/timosvar/Eliteserien-Winner-Prediction.git
+cd Eliteserien-Winner-Prediction
 ```
 
 ## Install the required libraries
